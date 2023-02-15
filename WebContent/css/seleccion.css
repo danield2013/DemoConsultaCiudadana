@@ -1,0 +1,33 @@
+/*Estilos selección*/
+
+.section-seleccion {
+	padding-top: 50px;
+	text-align: center;
+}
+.seleccion-item {
+	margin: 5px;
+}
+.seleccion-item img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 16px solid var(--body-background);
+}
+.seleccion-item img:hover {
+	border: 5px solid var(--body-background);
+	cursor: pointer;
+}
+.seleccion-item h4 {
+	width: 180px;
+}
+
+@media (min-width: 480px) {
+	.section-seleccion {
+		padding-top: 100px;
+	}
+}
+@media (min-width: 1024px) {
+	.section-seleccion {
+		padding-top: 150px;
+	}
+}

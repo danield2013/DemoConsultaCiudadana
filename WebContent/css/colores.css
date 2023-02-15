@@ -1,0 +1,25 @@
+/* Colores */
+
+:root {
+	/*Body*/
+	--body-background: #FFFFFF;
+	--body-color: #000000;
+	--text-prin-color: #2471A3;
+	--mensaje-color: #2471A3;
+	
+	/*Header*/
+  	--header-background: #2471A3;
+  	--menu-color: #FFFFFF;
+  	--menu-alter-color: #FBA919;
+  	
+  	/*Footer*/
+  	--footer-background: #2471A3;
+  	
+  	/*General*/
+	--linea-borde-color: #C0C0C0;
+	
+	/*Colores*/
+	--verde: #008000;
+	--rojo: #ee5224;
+	--azul: #3498DB;
+}

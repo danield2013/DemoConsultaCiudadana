@@ -1,0 +1,126 @@
+/*Estilos editor*/
+
+.section-editor {
+	padding-top: 20px;
+}
+.section-editor .contenedor {
+	max-width: 1200px;
+}
+
+.text-prin {
+	margin: 5px;
+	color: var(--text-prin-color);
+}
+
+/*Editor Add*/
+.editor-add {
+	padding: 0px 10px;
+}
+.icon-add {
+	width: 25px;
+	height: 25px;
+	font-size: 16px;
+	text-align: center;
+	color: var(--verde);
+	cursor: pointer;
+}
+.text-accion {
+	color: var(--text-prin-color);
+	cursor: pointer;
+}
+
+.form-add {
+	display: none;
+	position: relative;
+	margin: 5px auto;
+	border: 2px inset var(--linea-borde-color);
+}
+.mostrar-form-add {
+	display: table;
+}
+.form-add table {
+	float: left;
+	margin: 20px 5px 30px 5px;
+}
+input {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	padding: 3px;
+	color: var(--body-color);
+}
+textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	resize: none;
+	padding: 3px;
+	color: var(--body-color);
+}
+.upload-add {
+	width: auto;
+	max-width: 250px;
+	padding: 5px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.file-button {
+	display: none;
+}
+.icon-upload {
+	width: 25px;
+	height: 25px;
+	font-size: 16px;
+	text-align: center;
+	color: var(--azul);
+	cursor: pointer;
+}
+.text-upload {
+	font-size: small;
+	cursor: pointer;
+}
+
+.botones-add {
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	margin: 0px 10px;
+}
+.icon-save {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	text-align: center;
+	color: var(--azul);
+	cursor: pointer;
+}
+.icon-cancel {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	text-align: center;
+	color: var(--rojo);
+	cursor: pointer;
+}
+
+@media (min-width: 480px) {
+	.editor-add {
+		padding: 0px 20px;
+	}
+	.upload-add {
+		max-width: 350px;
+	}
+	.form-add table {
+		float: left;
+		margin: 20px 10px 30px 10px;
+	}
+}
+/*Editor Edit*/
+.editor-edit {
+	margin-top: 30px;
+	border: 1px solid black;
+}
+.ocultar-editor-edit {
+	display: none;
+}
